@@ -1,0 +1,37 @@
+# Operating System (OS) Files
+.DS_Store
+Thumbs.db
+
+# Dynamically generated files
+coverage.out
+
+# Backend Binary & Build Outputs
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Project Specific Ignored Folders
+/_notes/
+logs/
+
+# Environment Configurations
+.env
+.env.*
+!.env.example
+
+# Go Dependency & Test Artifacts
+vendor/
+*.test
+*.out
+
+# IDEs and Tools
+.idea/
+.vscode/
+
+# Frontend (Angular 21+) Artifacts
+/dist/
+/.angular/
+node_modules/
